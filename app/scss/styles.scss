@@ -3,13 +3,13 @@
 @import 'mixins';
 @import 'reset';
 
-$font-stack: 'Font name', Helvetica, sans-serif;
+$font-stack: 'Font name here', Helvetica, sans-serif;
 
 // testing only
 .testing {
-	display: flex;
-	width: percentage(5/7);
-	color: $card-white;
+  display: flex;
+  width: percentage(5/7);
+  color: $card-white;
 }
 
 html,
