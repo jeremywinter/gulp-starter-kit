@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import 'colors';
+@import 'mixins';
+@import 'reset';
+
+$font-stack: 'Font name', Helvetica, sans-serif;
+
+// testing only
+.testing {
+	display: flex;
+	width: percentage(5/7);
+	color: $card-white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $light-grey;
+}
+
+body {
+  font-family: $font-stack;
+  padding-bottom: 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $primary-color;
+}
