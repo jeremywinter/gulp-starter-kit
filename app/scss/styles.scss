@@ -1,7 +1,8 @@
 @charset "UTF-8";
+@import 'reset';
 @import 'colors';
 @import 'mixins';
-@import 'reset';
+@import 'media';
 
 $font-stack: 'Font name here', Helvetica, sans-serif;
 
