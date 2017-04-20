@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-// Mixins
+/* ---------------------------
+
+	Mixins
+
+--------------------------- */
 
 @mixin border_radius ($radius) {
   border-radius: $radius;
