@@ -1,3 +1,8 @@
+/* ---------------------------
+
+  Main styles 
+
+--------------------------- */
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -372,6 +377,36 @@ template {
 [hidden] {
   display: none; }
 
+/* ---------------------------
+
+	colors 
+
+--------------------------- */
+/* ---------------------------
+
+	Mixins
+
+--------------------------- */
+/* ---------------------------
+
+	Media Queries 
+
+--------------------------- */
+/* ---------------------------
+
+	to use
+
+	.some selector {
+    padding: 2rem;
+    font-size: 1.8rem;
+
+    @include mq('tablet-wide') {
+        padding-top: 4rem;
+        font-size: 2.4rem;
+    }
+}
+
+--------------------------- */
 .testing {
   display: -ms-flexbox;
   display: flex;
