@@ -42,6 +42,7 @@ gulp.task ('scripts', function() {
 gulp.task('watch', function() {
 
 	browserSync({
+		//port : 9002,
 		server: {
 				baseDir: 'app/'
 		}

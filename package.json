@@ -1,7 +1,7 @@
 {
-  "name": "my_first_gulp_project",
+  "name": "gulp-starter-kit",
   "version": "1.0.0",
-  "description": "first gulp project",
+  "description": "gulp-starter-kit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
